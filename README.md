@@ -20,4 +20,4 @@ DefaultMediaSourceFactory can also create more complex media sources depending o
 
 ExoPlayer provides functionality to download media for offline playback. In most use cases it’s desirable for downloads to continue
 even when your app is in the background. For these use cases your app should subclass DownloadService, and send commands to the service to add,
-remove and control the downloads. The diagram below shows the main classes that are involved.
+remove and control the downloads.
