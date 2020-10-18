@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+
+    <!--    <color name="colorAccent">#1E90FF</color>-->
+    <color name="colorAccent">#E12830</color>
+    <color name="accent_yellow">#FCC741</color>
+    <color name="accent_black">#414141</color>
+    <color name="accent_pink">#FF3D57</color>
+    <color name="text_dark_white">#9B9B9B</color>
+    <color name="accent_green">#009933</color>
+    <color name="accent_green1">#00F152</color>
+    <color name="accent_edit_border">#F5F5F5</color>
+
+    <color name="whitebg">#F5F5F5</color>
+    <color name="background">#FFFFFF</color>
+    <color name="light_background">#F5F5F5</color>
+    <color name="red">#ff0000</color>
+    <color name="accent_blue">#0866B1</color>
+
+    <color name="backgroundcolor">#121212</color>
+    <color name="colorTab">#303030</color>
+
+    <color name="transbackgroundcolor">#252525</color>
+    <color name="nav_color">#1F1F1F</color>
+
+    <color name="nav_color1">#F0FFFF</color>
+    <color name="white">#ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="gray">#252525</color>
+
+    <color name="light_gray">#ADACAC</color>
+    <color name="transparent">#1D252525</color>
+
+    <color name="transparent_dark">#60252525</color>
+    <color name="border">#414141</color>
+
+    <color name="buffered">#F0E9E9</color>
+    <color name="played">#F40000</color>
+
+    <color name="honeyComb">#F5F5F5</color>
+    <color name="scrubber">#F40000</color>
+
+    <color name="unplayed">#CAC8C8</color>
+    <color name="verticalTextColor">#434343</color>
+
+    <color name="continueStripColor">#1d1d1d</color>
+    <color name="stripColor">#1A1A1A</color>
+
+    <color name="salmon">#FF4500</color>
+    <color name="cyan">#008B8B</color>
+    <color name="gray_text">#B6B6B6</color>
+
+</resources>

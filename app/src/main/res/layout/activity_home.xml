@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transbackgroundcolor"
+    tools:context=".Activity.Home">
+
+    <FrameLayout
+        android:id="@+id/frameforeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foreground"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:foreground="@drawable/foreground_gradient"
+            android:scaleType="fitCenter"
+            android:src="@drawable/customflix"
+            tools:ignore="ContentDescription,UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/taptoplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12sp"
+            android:layout_marginEnd="10dp"
+            android:text="Tap to Play!!"
+            android:textColor="@color/background"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/playVideo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/exo_controls_play"
+            android:visibility="gone"
+            tools:ignore="ContentDescription,UnusedAttribute" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/videotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frameforeground"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12sp"
+        android:layout_marginEnd="10dp"
+        android:text="VIDEOS"
+        android:textColor="@color/background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/video_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videotitle"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/mydownloads"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/video_recycler"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/continueStripColor"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/my_downloads"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="UnusedAttribute" />
+</RelativeLayout>

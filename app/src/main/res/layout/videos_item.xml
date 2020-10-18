@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video_body"
+    android:layout_width="110dp"
+    android:layout_height="200dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80"
+            android:background="@color/transbackgroundcolor"
+            android:backgroundTint="@color/stripColor"
+            android:orientation="vertical"
+            tools:ignore="UnusedAttribute">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|left"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:maxLines="2"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/background"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
