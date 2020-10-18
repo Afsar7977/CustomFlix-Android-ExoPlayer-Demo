@@ -1,9 +1,8 @@
 # CustomFlix-Android-ExoPlayer-Demo
 A video-player based application which used ExoPlayer core built-in functionalities for playing any complex video smoothly. 
 
-<img src="https://github.com/Afsar7977/CustomFlix-Android-ExoPlayer-Demo/blob/master/Photos/download.jpg" width="200" height="400">
-<img src="https://github.com/Afsar7977/CustomFlix-Android-ExoPlayer-Demo/blob/master/Photos/homepage.jpg" width="200" height="400">
-<img src="https://github.com/Afsar7977/CustomFlix-Android-ExoPlayer-Demo/blob/master/Photos/player.jpg" width="200" height="400">
+<img src="https://github.com/Afsar7977/CustomFlix-Android-ExoPlayer-Demo/blob/master/Photos/homepage.jpg" align="left" width="200" height="400">
+<img src="https://github.com/Afsar7977/CustomFlix-Android-ExoPlayer-Demo/blob/master/Photos/player.jpg" align="right" width="200" height="400">
 
 ExoPlayer is an application level media player for Android. It provides an alternative to Android’s MediaPlayer API for playing audio
 and video both locally and over the Internet. ExoPlayer supports features not currently supported by Android’s MediaPlayer API, 
